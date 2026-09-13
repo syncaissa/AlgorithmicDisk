@@ -1,0 +1,33 @@
+{
+ "format": "AlgorithmicDisk/0.1",
+ "generators": {
+  "ANET-a02c1f203dc3721c": {
+   "seed_dim": 256,
+   "hidden": 256,
+   "bits_per_step": 8,
+   "block_steps": 8,
+   "max_blocks": 64,
+   "init_seed": 20260911,
+   "spectral": 1.4
+  }
+ },
+ "manifests": [
+  {
+   "id": "phrase-1",
+   "gid": "ANET-a02c1f203dc3721c",
+   "n_bits": 232,
+   "sha256": "7caf5cd652cee949bfe8148b3162c76b8564679a8116e18aa29ea466809d42b1",
+   "seed_q_bits": 4,
+   "seed_dim": 256,
+   "seed_scale": 0.5148506164550781,
+   "seed_b64": "xDale3SqOYU8doprXUMamTJWeIWdQzedl+RnRr14SX15SCRXiJeEO6RkdKaGx7uphTdZQ1pIa4llpVdojKnAhi5XvMc3WGZ3upJ3REYTRxSIhrh3R5piuIVZWGpKLHmEmKszVndLOUalLVg4J8dzjGbHdrR2VzlXtnPjumeeuEU=",
+   "discovery": {
+    "restart": 0,
+    "iters": 301,
+    "seconds": 0.48,
+    "min_abs_logit": 0.13185898959636688,
+    "best_match": 232
+   }
+  }
+ ]
+}

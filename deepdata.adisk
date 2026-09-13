@@ -1,0 +1,44 @@
+{
+ "format": "AlgorithmicDisk/0.4",
+ "generators": {
+  "ANET-PROC-telemetry-q20-v1": {
+   "kind": "procedural",
+   "program_bytes": 842
+  },
+  "ANET-PROC-dem-inoise-v1": {
+   "kind": "procedural",
+   "program_bytes": 1591
+  }
+ },
+ "manifests": [
+  {
+   "id": "telemetry.csv",
+   "gid": "ANET-PROC-telemetry-q20-v1",
+   "n_bytes": 104632381,
+   "sha256": "87b976ba6a6691f7275ed9e5fabd3f0220160d6f448369122f9091975b617bca",
+   "seed": {
+    "sigma": 10.0,
+    "rho": 28.0,
+    "beta": 2.6666666666666665,
+    "x0": 1.0,
+    "y0": 1.0,
+    "z0": 1.0,
+    "dt_shift": 9,
+    "steps": 2500000
+   }
+  },
+  {
+   "id": "planet_dem.u16",
+   "gid": "ANET-PROC-dem-inoise-v1",
+   "n_bytes": 134217728,
+   "sha256": "4b7a885af867c50ca83764b583e41da56a454f992d927be54d7cb9533613fabe",
+   "seed": {
+    "size": 8192,
+    "seed": 20260912,
+    "octaves": 6,
+    "base_cell": 1024,
+    "amp": 1024
+   }
+  }
+ ]
+}
