@@ -1,0 +1,66 @@
+{
+ "objects": [
+  {
+   "file": "pg12.txt",
+   "bytes": 176754,
+   "xz": 55736,
+   "runs": [
+    {
+     "threads": 1,
+     "encode_s": 3.04,
+     "decode_s": 3.04,
+     "read_MBps": 0.06,
+     "exact": true
+    },
+    {
+     "threads": 2,
+     "encode_s": 2.74,
+     "decode_s": 2.75,
+     "read_MBps": 0.06,
+     "exact": true
+    },
+    {
+     "threads": 4,
+     "encode_s": 2.73,
+     "decode_s": 2.73,
+     "read_MBps": 0.06,
+     "exact": true
+    }
+   ],
+   "seed_bytes": 60223,
+   "ratio": 0.3407
+  },
+  {
+   "file": "five_books.txt",
+   "bytes": 3379739,
+   "xz": 1010668,
+   "runs": [
+    {
+     "threads": 1,
+     "encode_s": 58.19,
+     "decode_s": 58.41,
+     "read_MBps": 0.06,
+     "exact": true
+    },
+    {
+     "threads": 2,
+     "encode_s": 52.52,
+     "decode_s": 52.67,
+     "read_MBps": 0.06,
+     "exact": true
+    },
+    {
+     "threads": 4,
+     "encode_s": 52.18,
+     "decode_s": 52.36,
+     "read_MBps": 0.06,
+     "exact": true
+    }
+   ],
+   "seed_bytes": 1156903,
+   "ratio": 0.3423
+  }
+ ],
+ "cores": 2,
+ "python_coder_KBps": 6.5
+}

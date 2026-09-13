@@ -1,0 +1,10 @@
+
+== telemetry.csv: generating from a 122-byte Seed ...
+   104,632,381 B  Seed 122 B (+ program 842 B)  ratio 1.17e-06 (with program 9.21e-06)  gzip 39,153,176 (0.374, 13s)  xz 25,942,860 (0.248, 170s)
+   regenerate: 11.1s here (9.4 MB/s), exact True; 40,000,000 integer ops = 0.4/byte -> RAD750-class (400 MIPS): 0s
+
+== planet_dem.u16: generating from a 78-byte Seed ...
+   134,217,728 B  Seed 78 B (+ program 1,591 B)  ratio 5.81e-07 (with program 1.24e-05)  gzip 122,282,257 (0.911, 13s)  xz 74,149,204 (0.552, 128s)
+   regenerate: 96.1s here (1.4 MB/s), exact True; 16,106,127,360 integer ops = 120.0/byte -> RAD750-class (400 MIPS): 40s
+
+disk deepdata.adisk: 895 bytes for 239 MB of objects; saved n2b_results.json

@@ -1,0 +1,285 @@
+{
+ "device": "cpu",
+ "engines": {
+  "ANET-EN": {
+   "bytes": 55720,
+   "kind": "predictive",
+   "hist": [
+    {
+     "epoch": 12,
+     "bits_per_byte": 2.529,
+     "sec": 301
+    }
+   ]
+  },
+  "ANET-CODE": {
+   "bytes": 55720,
+   "kind": "predictive",
+   "hist": [
+    {
+     "epoch": 10,
+     "bits_per_byte": 2.499,
+     "sec": 247
+    }
+   ]
+  },
+  "ANET-LIB": {
+   "bytes": 256680,
+   "kind": "predictive",
+   "hist": [
+    {
+     "epoch": 413,
+     "bits_per_byte": 0.8927,
+     "sec": 2405
+    }
+   ]
+  },
+  "ANET-PROC-lorenz-rk4-v1": {
+   "bytes": 30,
+   "kind": "procedural",
+   "hist": []
+  }
+ },
+ "objects": [
+  {
+   "file": "lorenz.csv",
+   "bytes": 1153112,
+   "gzip": 506927,
+   "xz": 362792,
+   "chosen": "ANET-PROC-lorenz-rk4-v1",
+   "mode": "procedural",
+   "seed_bytes": 118,
+   "ratio": 0.0001,
+   "engine_bytes": 30,
+   "total_ratio": 0.0001,
+   "read_s": 0.1,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-PROC-lorenz-rk4-v1",
+     "seed_bytes": 118,
+     "seconds": 0.1,
+     "exact": true
+    },
+    {
+     "gid": "ANET-EN",
+     "seed_bytes": 1162122,
+     "ideal_bytes": 1510282,
+     "seconds": 59.3
+    },
+    {
+     "gid": "ANET-CODE",
+     "seed_bytes": 718535,
+     "ideal_bytes": 693934,
+     "seconds": 57.7
+    },
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 1162122,
+     "ideal_bytes": 2015151,
+     "seconds": 64.1
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 1162122,
+     "seconds": 0.0
+    }
+   ]
+  },
+  {
+   "file": "pg12.txt",
+   "bytes": 176754,
+   "gzip": 62949,
+   "xz": 55736,
+   "chosen": "ANET-LIB",
+   "mode": "blocks",
+   "seed_bytes": 24801,
+   "ratio": 0.14031,
+   "engine_bytes": 256680,
+   "total_ratio": 1.5925,
+   "read_s": 12.1,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-EN",
+     "seed_bytes": 60326,
+     "ideal_bytes": 56542,
+     "seconds": 11.8
+    },
+    {
+     "gid": "ANET-CODE",
+     "seed_bytes": 116066,
+     "ideal_bytes": 112291,
+     "seconds": 10.6
+    },
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 24801,
+     "ideal_bytes": 21044,
+     "seconds": 11.1
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 178136,
+     "seconds": 0.0
+    }
+   ]
+  },
+  {
+   "file": "pg12_revised.txt",
+   "bytes": 176941,
+   "gzip": 63000,
+   "xz": 55748,
+   "chosen": "ANET-LIB",
+   "mode": "blocks",
+   "seed_bytes": 31805,
+   "ratio": 0.17975,
+   "engine_bytes": 256680,
+   "total_ratio": 1.6304,
+   "read_s": 12.2,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-EN",
+     "seed_bytes": 60848,
+     "ideal_bytes": 57080,
+     "seconds": 11.5
+    },
+    {
+     "gid": "ANET-CODE",
+     "seed_bytes": 116280,
+     "ideal_bytes": 112514,
+     "seconds": 10.7
+    },
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 31805,
+     "ideal_bytes": 28036,
+     "seconds": 11.3
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 178325,
+     "seconds": 0.0
+    }
+   ]
+  },
+  {
+   "file": "pg84_frankenstein.txt",
+   "bytes": 200000,
+   "gzip": 76855,
+   "xz": 68228,
+   "chosen": "ANET-EN",
+   "mode": "blocks",
+   "seed_bytes": 67883,
+   "ratio": 0.33942,
+   "engine_bytes": 55720,
+   "total_ratio": 0.618,
+   "read_s": 12.7,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-EN",
+     "seed_bytes": 67883,
+     "ideal_bytes": 63630,
+     "seconds": 12.7
+    },
+    {
+     "gid": "ANET-CODE",
+     "seed_bytes": 105189,
+     "ideal_bytes": 100938,
+     "seconds": 11.9
+    },
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 117710,
+     "ideal_bytes": 113463,
+     "seconds": 12.7
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 201564,
+     "seconds": 0.0
+    }
+   ]
+  },
+  {
+   "file": "algorithmic_storage.py",
+   "bytes": 20439,
+   "gzip": 6544,
+   "xz": 6408,
+   "chosen": "ANET-CODE",
+   "mode": "blocks",
+   "seed_bytes": 9475,
+   "ratio": 0.46357,
+   "engine_bytes": 55720,
+   "total_ratio": 3.1897,
+   "read_s": 1.4,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-EN",
+     "seed_bytes": 16163,
+     "ideal_bytes": 15887,
+     "seconds": 1.8
+    },
+    {
+     "gid": "ANET-CODE",
+     "seed_bytes": 9475,
+     "ideal_bytes": 9039,
+     "seconds": 1.8
+    },
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 20130,
+     "ideal_bytes": 21592,
+     "seconds": 1.7
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 20599,
+     "seconds": 0.0
+    }
+   ]
+  },
+  {
+   "file": "image.png",
+   "bytes": 88791,
+   "gzip": 83598,
+   "xz": 82608,
+   "chosen": "VERBATIM",
+   "mode": "raw",
+   "seed_bytes": 88791,
+   "ratio": 1.0,
+   "engine_bytes": 0,
+   "total_ratio": 1.0,
+   "read_s": 0.0,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-EN",
+     "seed_bytes": 89485,
+     "ideal_bytes": 153791,
+     "seconds": 6.5
+    },
+    {
+     "gid": "ANET-CODE",
+     "seed_bytes": 89485,
+     "ideal_bytes": 142939,
+     "seconds": 5.5
+    },
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 89485,
+     "ideal_bytes": 161058,
+     "seconds": 6.1
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 89485,
+     "seconds": 0.0
+    }
+   ]
+  }
+ ]
+}

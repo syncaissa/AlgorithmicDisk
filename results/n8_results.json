@@ -1,0 +1,65 @@
+{
+ "engine": {
+  "hidden": 256,
+  "emb": 32,
+  "block": 512,
+  "bytes": 148024,
+  "params": 148000,
+  "train_books": 16,
+  "train_bytes": 12000000
+ },
+ "tests": [
+  {
+   "file": "pg12.txt",
+   "bytes": 176754,
+   "baselines": {
+    "gzip9": 62949,
+    "bz2": 49248,
+    "xz": 55736
+   },
+   "float_stream": {
+    "seed": 48391,
+    "ratio": 0.2738,
+    "bpb": 2.19,
+    "exact": true,
+    "write_s": 16.0
+   },
+   "fixed_blocks_C": {
+    "seed": 50143,
+    "ratio": 0.2837,
+    "bpb": 2.27,
+    "exact": true,
+    "write_s": 6.3,
+    "read_s": 6.3
+   },
+   "beats_xz": true,
+   "beats_bz2": true
+  },
+  {
+   "file": "pg84.txt",
+   "bytes": 428903,
+   "baselines": {
+    "gzip9": 161755,
+    "bz2": 120005,
+    "xz": 137176
+   },
+   "float_stream": {
+    "seed": 112005,
+    "ratio": 0.2611,
+    "bpb": 2.089,
+    "exact": true,
+    "write_s": 38.6
+   },
+   "fixed_blocks_C": {
+    "seed": 116208,
+    "ratio": 0.2709,
+    "bpb": 2.168,
+    "exact": true,
+    "write_s": 15.8,
+    "read_s": 16.0
+   },
+   "beats_xz": true,
+   "beats_bz2": true
+  }
+ ]
+}

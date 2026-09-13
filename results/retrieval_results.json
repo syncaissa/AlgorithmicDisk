@@ -1,0 +1,257 @@
+{
+ "engine_bytes": 104252,
+ "library_bytes": 331237,
+ "chunks": 4497,
+ "objects": [
+  {
+   "file": "pg12.txt",
+   "bytes": 176754,
+   "gzip": 62949,
+   "xz": 55736,
+   "chosen": "ANET-RET-173118105113",
+   "base": null,
+   "seed_bytes": 10,
+   "ratio": 6e-05,
+   "read_s": 0.0,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 24801,
+     "ideal_bytes": 21044,
+     "seconds": 26.4
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 178136,
+     "seconds": 0.0
+    },
+    {
+     "gid": "ANET-RET-173118105113",
+     "seed_bytes": 10,
+     "seconds": 0.3,
+     "segments": 1,
+     "runs": 1,
+     "residual_bytes": 0,
+     "residual_coded": 0,
+     "residual_mode": "raw",
+     "layout_bytes": 7
+    }
+   ]
+  },
+  {
+   "file": "rev1_60words.txt",
+   "bytes": 176941,
+   "gzip": 63000,
+   "xz": 55748,
+   "chosen": "ANET-DELTA",
+   "base": "pg12.txt",
+   "seed_bytes": 390,
+   "ratio": 0.0022,
+   "read_s": 0.1,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 31805,
+     "ideal_bytes": 28036,
+     "seconds": 26.3
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 178325,
+     "seconds": 0.0
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "pg12.txt",
+     "edits": 60,
+     "seed_bytes": 390,
+     "seconds": 1.6
+    },
+    {
+     "gid": "ANET-RET-173118105113",
+     "seed_bytes": 3599,
+     "seconds": 2.0,
+     "segments": 113,
+     "runs": 57,
+     "residual_bytes": 7787,
+     "residual_coded": 3189,
+     "residual_mode": "neural",
+     "layout_bytes": 405
+    }
+   ]
+  },
+  {
+   "file": "rev3_5pct.txt",
+   "bytes": 178127,
+   "gzip": 62967,
+   "xz": 55856,
+   "chosen": "ANET-DELTA",
+   "base": "rev1_60words.txt",
+   "seed_bytes": 4082,
+   "ratio": 0.02292,
+   "read_s": 0.2,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 48792,
+     "ideal_bytes": 45002,
+     "seconds": 27.7
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 179519,
+     "seconds": 0.0
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "pg12.txt",
+     "edits": 1454,
+     "seed_bytes": 4742,
+     "seconds": 3.4
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "rev1_60words.txt",
+     "edits": 1400,
+     "seed_bytes": 4082,
+     "seconds": 3.0
+    },
+    {
+     "gid": "ANET-RET-173118105113",
+     "seed_bytes": 36779,
+     "seconds": 16.5,
+     "segments": 1051,
+     "runs": 526,
+     "residual_bytes": 104369,
+     "residual_coded": 34576,
+     "residual_mode": "xz",
+     "layout_bytes": 2197
+    }
+   ]
+  },
+  {
+   "file": "composite_manual.txt",
+   "bytes": 26188,
+   "gzip": 10164,
+   "xz": 9764,
+   "chosen": "ANET-RET-173118105113",
+   "base": null,
+   "seed_bytes": 3502,
+   "ratio": 0.13373,
+   "read_s": 0.0,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 9649,
+     "ideal_bytes": 9094,
+     "seconds": 8.8
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 26394,
+     "seconds": 0.0
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "pg12.txt",
+     "edits": 733,
+     "seed_bytes": 12366,
+     "seconds": 11.9
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "rev1_60words.txt",
+     "edits": 732,
+     "seed_bytes": 12366,
+     "seconds": 12.4
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "rev3_5pct.txt",
+     "edits": 753,
+     "seed_bytes": 12819,
+     "seconds": 17.6
+    },
+    {
+     "gid": "ANET-RET-173118105113",
+     "seed_bytes": 3502,
+     "seconds": 5.0,
+     "segments": 119,
+     "runs": 59,
+     "residual_bytes": 8449,
+     "residual_coded": 3084,
+     "residual_mode": "xz",
+     "layout_bytes": 413
+    }
+   ]
+  },
+  {
+   "file": "pg84_unseen.txt",
+   "bytes": 200000,
+   "gzip": 76855,
+   "xz": 68228,
+   "chosen": "ANET-EN",
+   "base": null,
+   "seed_bytes": 67883,
+   "ratio": 0.33942,
+   "read_s": 30.0,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-EN",
+     "seed_bytes": 67883,
+     "ideal_bytes": 63630,
+     "seconds": 28.4
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 201564,
+     "seconds": 0.0
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "pg12.txt",
+     "edits": 3414,
+     "seed_bytes": 86902,
+     "seconds": 7.9
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "rev1_60words.txt",
+     "edits": 3410,
+     "seed_bytes": 86878,
+     "seconds": 7.8
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "rev3_5pct.txt",
+     "edits": 3450,
+     "seed_bytes": 87075,
+     "seconds": 7.9
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "composite_manual.txt",
+     "edits": 191,
+     "seed_bytes": 69510,
+     "seconds": 46.8
+    },
+    {
+     "gid": "ANET-RET-173118105113",
+     "seed_bytes": 67894,
+     "seconds": 28.4,
+     "segments": 1,
+     "runs": 0,
+     "residual_bytes": 200000,
+     "residual_coded": 67883,
+     "residual_mode": "neural",
+     "layout_bytes": 6
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+[device cpu] training hidden 256 emb 32 block 512 on 12,000,000 bytes from 16 books, 14 epochs
+    ep   1  train 3.356 bits/byte    290s
+    ep   2  train 2.617 bits/byte    878s
+    ep   3  train 2.404 bits/byte   1159s
+    ep   4  train 2.285 bits/byte   1384s
+    ep   5  train 2.210 bits/byte   1609s
+    ep   6  train 2.157 bits/byte   1833s
+    ep   7  train 2.119 bits/byte   2078s
+    ep   8  train 2.089 bits/byte   2302s
+    ep   9  train 2.062 bits/byte  (lr 1e-3)    225s
+    ep  10  train 2.050 bits/byte  (lr 1e-3)    449s
+    ep  11  train 2.040 bits/byte  (lr 1e-3)    674s
+    ep  12  train 2.031 bits/byte  (lr 1e-3)    927s
+    ep  13  train 2.023 bits/byte  (lr 1e-3)   1187s
+    ep  14  train 2.015 bits/byte  (lr 1e-3)   1532s
+engine: 148,000 params -> 148,024 B int8
+pg12.txt: 176,754 B | gzip 62,949 bz2 49,248 xz 55,736 | float stream Seed 48,391 (2.190 b/B, exact True) | C fixed blocks Seed 50,143 (2.270 b/B, exact True, read 6.3s) | beats xz: True  beats bz2: True
+pg84.txt: 428,903 B | gzip 161,755 bz2 120,005 xz 137,176 | float stream Seed 112,005 (2.089 b/B, exact True) | C fixed blocks Seed 116,208 (2.168 b/B, exact True, read 16.0s) | beats xz: True  beats bz2: True
+saved n8_results.json

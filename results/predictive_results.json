@@ -1,0 +1,593 @@
+{
+ "device": "cpu",
+ "chunk_chars": 29,
+ "N_bits": 232,
+ "corpus_chunks": 4805,
+ "runs": [
+  {
+   "hidden": 64,
+   "M": 250,
+   "weight_params": 25936,
+   "weight_bits": 207680,
+   "weight_format": "int8",
+   "train": {
+    "n": 250,
+    "exact": 1.0,
+    "seed_bits_mean": 140.2,
+    "ideal_bits_mean": 113.5,
+    "seconds": 2.3
+   },
+   "holdout": {
+    "n": 200,
+    "exact": 1.0,
+    "seed_bits_mean": 141.9,
+    "ideal_bits_mean": 115.3,
+    "seconds": 1.9
+   },
+   "footprint_bits_per_obj": 970.9,
+   "footprint_bits_per_obj_ideal": 944.2,
+   "breakeven_M": 2262,
+   "total_footprint_bytes": 30341,
+   "total_data_bytes": 7250,
+   "hist": [
+    {
+     "epoch": 10,
+     "bits_per_char": 6.062,
+     "sec": 4.3
+    },
+    {
+     "epoch": 20,
+     "bits_per_char": 4.534,
+     "sec": 6.6
+    },
+    {
+     "epoch": 30,
+     "bits_per_char": 4.312,
+     "sec": 9.5
+    },
+    {
+     "epoch": 40,
+     "bits_per_char": 4.167,
+     "sec": 11.5
+    },
+    {
+     "epoch": 50,
+     "bits_per_char": 4.045,
+     "sec": 16.2
+    },
+    {
+     "epoch": 60,
+     "bits_per_char": 3.923,
+     "sec": 18.7
+    }
+   ]
+  },
+  {
+   "hidden": 64,
+   "M": 500,
+   "weight_params": 25936,
+   "weight_bits": 207680,
+   "weight_format": "int8",
+   "train": {
+    "n": 500,
+    "exact": 1.0,
+    "seed_bits_mean": 125.6,
+    "ideal_bits_mean": 98.8,
+    "seconds": 4.7
+   },
+   "holdout": {
+    "n": 200,
+    "exact": 1.0,
+    "seed_bits_mean": 127.9,
+    "ideal_bits_mean": 101.2,
+    "seconds": 1.8
+   },
+   "footprint_bits_per_obj": 541.0,
+   "footprint_bits_per_obj_ideal": 514.2,
+   "breakeven_M": 1952,
+   "total_footprint_bytes": 33810,
+   "total_data_bytes": 14500,
+   "hist": [
+    {
+     "epoch": 10,
+     "bits_per_char": 4.588,
+     "sec": 4.3
+    },
+    {
+     "epoch": 20,
+     "bits_per_char": 4.223,
+     "sec": 9.9
+    },
+    {
+     "epoch": 30,
+     "bits_per_char": 3.972,
+     "sec": 14.8
+    },
+    {
+     "epoch": 40,
+     "bits_per_char": 3.742,
+     "sec": 19.2
+    },
+    {
+     "epoch": 50,
+     "bits_per_char": 3.551,
+     "sec": 23.3
+    },
+    {
+     "epoch": 60,
+     "bits_per_char": 3.411,
+     "sec": 27.5
+    }
+   ]
+  },
+  {
+   "hidden": 64,
+   "M": 1000,
+   "weight_params": 25936,
+   "weight_bits": 207680,
+   "weight_format": "int8",
+   "train": {
+    "n": 1000,
+    "exact": 1.0,
+    "seed_bits_mean": 115.4,
+    "ideal_bits_mean": 88.7,
+    "seconds": 13.0
+   },
+   "holdout": {
+    "n": 200,
+    "exact": 1.0,
+    "seed_bits_mean": 118.9,
+    "ideal_bits_mean": 92.2,
+    "seconds": 1.8
+   },
+   "footprint_bits_per_obj": 323.1,
+   "footprint_bits_per_obj_ideal": 296.4,
+   "breakeven_M": 1781,
+   "total_footprint_bytes": 40385,
+   "total_data_bytes": 29000,
+   "hist": [
+    {
+     "epoch": 10,
+     "bits_per_char": 4.241,
+     "sec": 14.7
+    },
+    {
+     "epoch": 20,
+     "bits_per_char": 3.747,
+     "sec": 28.3
+    },
+    {
+     "epoch": 30,
+     "bits_per_char": 3.43,
+     "sec": 42.9
+    },
+    {
+     "epoch": 40,
+     "bits_per_char": 3.262,
+     "sec": 51.9
+    },
+    {
+     "epoch": 50,
+     "bits_per_char": 3.149,
+     "sec": 65.5
+    },
+    {
+     "epoch": 60,
+     "bits_per_char": 3.057,
+     "sec": 82.0
+    }
+   ]
+  },
+  {
+   "hidden": 64,
+   "M": 2000,
+   "weight_params": 25936,
+   "weight_bits": 207680,
+   "weight_format": "int8",
+   "train": {
+    "n": 2000,
+    "exact": 1.0,
+    "seed_bits_mean": 107.6,
+    "ideal_bits_mean": 80.9,
+    "seconds": 18.4
+   },
+   "holdout": {
+    "n": 200,
+    "exact": 1.0,
+    "seed_bits_mean": 111.7,
+    "ideal_bits_mean": 85.0,
+    "seconds": 2.1
+   },
+   "footprint_bits_per_obj": 211.4,
+   "footprint_bits_per_obj_ideal": 184.7,
+   "breakeven_M": 1669,
+   "total_footprint_bytes": 52860,
+   "total_data_bytes": 58000,
+   "hist": [
+    {
+     "epoch": 10,
+     "bits_per_char": 3.793,
+     "sec": 26.5
+    },
+    {
+     "epoch": 20,
+     "bits_per_char": 3.309,
+     "sec": 57.0
+    },
+    {
+     "epoch": 30,
+     "bits_per_char": 3.114,
+     "sec": 87.4
+    },
+    {
+     "epoch": 40,
+     "bits_per_char": 2.979,
+     "sec": 103.4
+    },
+    {
+     "epoch": 50,
+     "bits_per_char": 2.875,
+     "sec": 119.3
+    },
+    {
+     "epoch": 60,
+     "bits_per_char": 2.789,
+     "sec": 136.3
+    }
+   ]
+  },
+  {
+   "hidden": 64,
+   "M": 4000,
+   "weight_params": 25936,
+   "weight_bits": 207680,
+   "weight_format": "int8",
+   "train": {
+    "n": 4000,
+    "exact": 1.0,
+    "seed_bits_mean": 100.5,
+    "ideal_bits_mean": 73.7,
+    "seconds": 16.6
+   },
+   "holdout": {
+    "n": 200,
+    "exact": 1.0,
+    "seed_bits_mean": 103.4,
+    "ideal_bits_mean": 76.9,
+    "seconds": 0.8
+   },
+   "footprint_bits_per_obj": 152.4,
+   "footprint_bits_per_obj_ideal": 125.6,
+   "breakeven_M": 1579,
+   "total_footprint_bytes": 76210,
+   "total_data_bytes": 116000,
+   "hist": [
+    {
+     "epoch": 10,
+     "bits_per_char": 3.325,
+     "sec": 62.9
+    },
+    {
+     "epoch": 20,
+     "bits_per_char": 2.995,
+     "sec": 94.6
+    },
+    {
+     "epoch": 30,
+     "bits_per_char": 2.812,
+     "sec": 125.6
+    },
+    {
+     "epoch": 40,
+     "bits_per_char": 2.689,
+     "sec": 174.2
+    },
+    {
+     "epoch": 50,
+     "bits_per_char": 2.601,
+     "sec": 205.8
+    },
+    {
+     "epoch": 60,
+     "bits_per_char": 2.539,
+     "sec": 220.1
+    }
+   ]
+  },
+  {
+   "hidden": 128,
+   "M": 250,
+   "weight_params": 55696,
+   "weight_bits": 445760,
+   "weight_format": "int8",
+   "train": {
+    "n": 250,
+    "exact": 1.0,
+    "seed_bits_mean": 127.7,
+    "ideal_bits_mean": 100.9,
+    "seconds": 1.2
+   },
+   "holdout": {
+    "n": 200,
+    "exact": 1.0,
+    "seed_bits_mean": 132.5,
+    "ideal_bits_mean": 105.8,
+    "seconds": 0.8
+   },
+   "footprint_bits_per_obj": 1910.7,
+   "footprint_bits_per_obj_ideal": 1883.9,
+   "breakeven_M": 4274,
+   "total_footprint_bytes": 59711,
+   "total_data_bytes": 7250,
+   "hist": [
+    {
+     "epoch": 10,
+     "bits_per_char": 4.829,
+     "sec": 1.2
+    },
+    {
+     "epoch": 20,
+     "bits_per_char": 4.228,
+     "sec": 2.0
+    },
+    {
+     "epoch": 30,
+     "bits_per_char": 3.995,
+     "sec": 2.8
+    },
+    {
+     "epoch": 40,
+     "bits_per_char": 3.803,
+     "sec": 3.8
+    },
+    {
+     "epoch": 50,
+     "bits_per_char": 3.63,
+     "sec": 5.3
+    },
+    {
+     "epoch": 60,
+     "bits_per_char": 3.485,
+     "sec": 6.1
+    }
+   ]
+  },
+  {
+   "hidden": 128,
+   "M": 500,
+   "weight_params": 55696,
+   "weight_bits": 445760,
+   "weight_format": "int8",
+   "train": {
+    "n": 500,
+    "exact": 1.0,
+    "seed_bits_mean": 118.0,
+    "ideal_bits_mean": 91.3,
+    "seconds": 2.0
+   },
+   "holdout": {
+    "n": 200,
+    "exact": 1.0,
+    "seed_bits_mean": 122.7,
+    "ideal_bits_mean": 96.1,
+    "seconds": 0.8
+   },
+   "footprint_bits_per_obj": 1009.5,
+   "footprint_bits_per_obj_ideal": 982.8,
+   "breakeven_M": 3910,
+   "total_footprint_bytes": 63095,
+   "total_data_bytes": 14500,
+   "hist": [
+    {
+     "epoch": 10,
+     "bits_per_char": 4.293,
+     "sec": 2.0
+    },
+    {
+     "epoch": 20,
+     "bits_per_char": 3.896,
+     "sec": 4.0
+    },
+    {
+     "epoch": 30,
+     "bits_per_char": 3.6,
+     "sec": 5.8
+    },
+    {
+     "epoch": 40,
+     "bits_per_char": 3.397,
+     "sec": 7.3
+    },
+    {
+     "epoch": 50,
+     "bits_per_char": 3.257,
+     "sec": 8.8
+    },
+    {
+     "epoch": 60,
+     "bits_per_char": 3.147,
+     "sec": 10.2
+    }
+   ]
+  },
+  {
+   "hidden": 128,
+   "M": 1000,
+   "weight_params": 55696,
+   "weight_bits": 445760,
+   "weight_format": "int8",
+   "train": {
+    "n": 1000,
+    "exact": 1.0,
+    "seed_bits_mean": 109.7,
+    "ideal_bits_mean": 83.1,
+    "seconds": 4.0
+   },
+   "holdout": {
+    "n": 200,
+    "exact": 1.0,
+    "seed_bits_mean": 116.0,
+    "ideal_bits_mean": 89.0,
+    "seconds": 0.8
+   },
+   "footprint_bits_per_obj": 555.5,
+   "footprint_bits_per_obj_ideal": 528.9,
+   "breakeven_M": 3645,
+   "total_footprint_bytes": 69432,
+   "total_data_bytes": 29000,
+   "hist": [
+    {
+     "epoch": 10,
+     "bits_per_char": 3.94,
+     "sec": 4.0
+    },
+    {
+     "epoch": 20,
+     "bits_per_char": 3.451,
+     "sec": 7.3
+    },
+    {
+     "epoch": 30,
+     "bits_per_char": 3.233,
+     "sec": 10.3
+    },
+    {
+     "epoch": 40,
+     "bits_per_char": 3.09,
+     "sec": 13.3
+    },
+    {
+     "epoch": 50,
+     "bits_per_char": 2.97,
+     "sec": 16.5
+    },
+    {
+     "epoch": 60,
+     "bits_per_char": 2.864,
+     "sec": 19.5
+    }
+   ]
+  },
+  {
+   "hidden": 128,
+   "M": 2000,
+   "weight_params": 55696,
+   "weight_bits": 445760,
+   "weight_format": "int8",
+   "train": {
+    "n": 2000,
+    "exact": 1.0,
+    "seed_bits_mean": 101.5,
+    "ideal_bits_mean": 74.9,
+    "seconds": 8.2
+   },
+   "holdout": {
+    "n": 200,
+    "exact": 1.0,
+    "seed_bits_mean": 108.8,
+    "ideal_bits_mean": 82.2,
+    "seconds": 0.8
+   },
+   "footprint_bits_per_obj": 324.4,
+   "footprint_bits_per_obj_ideal": 297.8,
+   "breakeven_M": 3416,
+   "total_footprint_bytes": 81095,
+   "total_data_bytes": 58000,
+   "hist": [
+    {
+     "epoch": 10,
+     "bits_per_char": 3.515,
+     "sec": 7.4
+    },
+    {
+     "epoch": 20,
+     "bits_per_char": 3.169,
+     "sec": 13.3
+    },
+    {
+     "epoch": 30,
+     "bits_per_char": 2.967,
+     "sec": 19.5
+    },
+    {
+     "epoch": 40,
+     "bits_per_char": 2.813,
+     "sec": 25.5
+    },
+    {
+     "epoch": 50,
+     "bits_per_char": 2.688,
+     "sec": 31.5
+    },
+    {
+     "epoch": 60,
+     "bits_per_char": 2.581,
+     "sec": 37.5
+    }
+   ]
+  },
+  {
+   "hidden": 128,
+   "M": 4000,
+   "weight_params": 55696,
+   "weight_bits": 445760,
+   "weight_format": "int8",
+   "train": {
+    "n": 4000,
+    "exact": 1.0,
+    "seed_bits_mean": 93.5,
+    "ideal_bits_mean": 66.8,
+    "seconds": 15.9
+   },
+   "holdout": {
+    "n": 200,
+    "exact": 1.0,
+    "seed_bits_mean": 99.9,
+    "ideal_bits_mean": 73.3,
+    "seconds": 0.8
+   },
+   "footprint_bits_per_obj": 204.9,
+   "footprint_bits_per_obj_ideal": 178.2,
+   "breakeven_M": 3218,
+   "total_footprint_bytes": 102470,
+   "total_data_bytes": 116000,
+   "hist": [
+    {
+     "epoch": 10,
+     "bits_per_char": 3.172,
+     "sec": 13.1
+    },
+    {
+     "epoch": 20,
+     "bits_per_char": 2.83,
+     "sec": 25.0
+    },
+    {
+     "epoch": 30,
+     "bits_per_char": 2.617,
+     "sec": 37.2
+    },
+    {
+     "epoch": 40,
+     "bits_per_char": 2.479,
+     "sec": 48.8
+    },
+    {
+     "epoch": 50,
+     "bits_per_char": 2.381,
+     "sec": 60.5
+    },
+    {
+     "epoch": 60,
+     "bits_per_char": 2.304,
+     "sec": 72.2
+    }
+   ]
+  }
+ ],
+ "baselines": {
+  "raw_bits": 232,
+  "gzip9_bits_per_chunk": 81.0,
+  "untrained_engine_bits": 1024
+ }
+}

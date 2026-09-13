@@ -1,0 +1,152 @@
+{
+ "objects": [
+  {
+   "file": "pg12.txt",
+   "bytes": 176754,
+   "gzip": 62949,
+   "xz": 55736,
+   "chosen": "ANET-LIB",
+   "base": null,
+   "seed_bytes": 24801,
+   "ratio": 0.14031,
+   "read_s": 28.7,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 24801,
+     "ideal_bytes": 21044,
+     "seconds": 26.9
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 178136,
+     "seconds": 0.0
+    }
+   ]
+  },
+  {
+   "file": "rev1_60words.txt",
+   "bytes": 176941,
+   "gzip": 63000,
+   "xz": 55748,
+   "chosen": "ANET-DELTA",
+   "base": "pg12.txt",
+   "seed_bytes": 390,
+   "ratio": 0.0022,
+   "read_s": 28.0,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 31805,
+     "ideal_bytes": 28036,
+     "seconds": 26.7
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 178325,
+     "seconds": 0.0
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "pg12.txt",
+     "edits": 60,
+     "seed_bytes": 390,
+     "seconds": 1.7
+    }
+   ]
+  },
+  {
+   "file": "rev2_appendix.txt",
+   "bytes": 178561,
+   "gzip": 63087,
+   "xz": 55884,
+   "chosen": "ANET-DELTA",
+   "base": "rev1_60words.txt",
+   "seed_bytes": 390,
+   "ratio": 0.00218,
+   "read_s": 28.7,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 33555,
+     "ideal_bytes": 29758,
+     "seconds": 26.7
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 179957,
+     "seconds": 0.0
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "pg12.txt",
+     "edits": 101,
+     "seed_bytes": 678,
+     "seconds": 1.9
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "rev1_60words.txt",
+     "edits": 41,
+     "seed_bytes": 390,
+     "seconds": 1.0
+    }
+   ]
+  },
+  {
+   "file": "rev3_5pct.txt",
+   "bytes": 179661,
+   "gzip": 63051,
+   "xz": 55960,
+   "chosen": "ANET-DELTA",
+   "base": "rev2_appendix.txt",
+   "seed_bytes": 4543,
+   "ratio": 0.02529,
+   "read_s": 28.5,
+   "exact": true,
+   "trials": [
+    {
+     "gid": "ANET-LIB",
+     "seed_bytes": 50304,
+     "ideal_bytes": 46472,
+     "seconds": 26.6
+    },
+    {
+     "gid": "VERBATIM",
+     "seed_bytes": 181065,
+     "seconds": 0.0
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "pg12.txt",
+     "edits": 1505,
+     "seed_bytes": 5362,
+     "seconds": 3.2
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "rev1_60words.txt",
+     "edits": 1447,
+     "seed_bytes": 4746,
+     "seconds": 3.2
+    },
+    {
+     "gid": "ANET-DELTA",
+     "base": "rev2_appendix.txt",
+     "edits": 1414,
+     "seed_bytes": 4543,
+     "seconds": 2.9
+    }
+   ]
+  }
+ ],
+ "totals": {
+  "bytes": 711917,
+  "seeds": 30124,
+  "xz_each": 223328,
+  "ratio": 0.04231
+ }
+}

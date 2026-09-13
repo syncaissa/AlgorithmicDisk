@@ -1,0 +1,48 @@
+{
+ "objects": [
+  {
+   "file": "telemetry.csv",
+   "bytes": 104632381,
+   "seed_bytes": 122,
+   "program_bytes": 842,
+   "footprint_bytes": 964,
+   "ratio": 1.1659870379897023e-06,
+   "ratio_with_program": 9.213209054279287e-06,
+   "gzip6": 39153176,
+   "xz6": 25942860,
+   "gzip_ratio": 0.374197505837127,
+   "xz_ratio": 0.24794293842935677,
+   "gen_s": 11.1,
+   "regen_s": 11.3,
+   "exact": true,
+   "MBps": 9.39,
+   "int_ops": 40000000,
+   "ops_per_byte": 0.4,
+   "horizon_rad750_s": 0.1,
+   "xz_compress_s": 170.2,
+   "gzip_compress_s": 13.2
+  },
+  {
+   "file": "planet_dem.u16",
+   "bytes": 134217728,
+   "seed_bytes": 78,
+   "program_bytes": 1591,
+   "footprint_bytes": 1669,
+   "ratio": 5.811452865600586e-07,
+   "ratio_with_program": 1.2435019016265869e-05,
+   "gzip6": 122282257,
+   "xz6": 74149204,
+   "gzip_ratio": 0.911073811352253,
+   "xz_ratio": 0.5524546205997467,
+   "gen_s": 96.1,
+   "regen_s": 94.8,
+   "exact": true,
+   "MBps": 1.4,
+   "int_ops": 16106127360,
+   "ops_per_byte": 120.0,
+   "horizon_rad750_s": 40.3,
+   "xz_compress_s": 127.6,
+   "gzip_compress_s": 13.4
+  }
+ ]
+}

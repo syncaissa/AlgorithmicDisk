@@ -1,0 +1,24 @@
+
+== pg12.txt: 176,754 bytes   gzip 62,949  xz 55,736
+      try ANET-LIB     ->    24,801 B  (26.9s)
+   chosen ANET-LIB: Seed 24,801 B  ratio 0.14031x  read 28.7s  sha256 PASS
+
+== rev1_60words.txt: 176,941 bytes   gzip 63,000  xz 55,748
+      try ANET-LIB     ->    31,805 B  (26.7s)
+      try delta vs pg12.txt               ->       390 B  (60 edits, 1.7s)
+   chosen ANET-DELTA (base pg12.txt): Seed 390 B  ratio 0.00220x  read 28.0s  sha256 PASS
+
+== rev2_appendix.txt: 178,561 bytes   gzip 63,087  xz 55,884
+      try ANET-LIB     ->    33,555 B  (26.7s)
+      try delta vs pg12.txt               ->       678 B  (101 edits, 1.9s)
+      try delta vs rev1_60words.txt       ->       390 B  (41 edits, 1.0s)
+   chosen ANET-DELTA (base rev1_60words.txt): Seed 390 B  ratio 0.00218x  read 28.7s  sha256 PASS
+
+== rev3_5pct.txt: 179,661 bytes   gzip 63,051  xz 55,960
+      try ANET-LIB     ->    50,304 B  (26.6s)
+      try delta vs pg12.txt               ->     5,362 B  (1505 edits, 3.2s)
+      try delta vs rev1_60words.txt       ->     4,746 B  (1447 edits, 3.2s)
+      try delta vs rev2_appendix.txt      ->     4,543 B  (1414 edits, 2.9s)
+   chosen ANET-DELTA (base rev2_appendix.txt): Seed 4,543 B  ratio 0.02529x  read 28.5s  sha256 PASS
+
+four versions: 711,917 B of documents -> 30,124 B of Seeds (0.0423x); xz on each separately 223,328 B

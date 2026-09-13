@@ -1,0 +1,44 @@
+  engine ANET-EN         55,720 B  predictive
+  engine ANET-CODE       55,720 B  predictive
+  engine ANET-LIB       256,680 B  predictive
+  engine ANET-PROC-lorenz-rk4-v1        30 B  procedural
+
+  simulated Lorenz CSV: 1,153,112 bytes in 0.2s
+
+== lorenz.csv: 1,153,112 bytes   gzip 506,927  xz 362,792
+      try ANET-EN      -> 1,162,122 B  (59.3s)
+      try ANET-CODE    ->   718,535 B  (57.7s)
+      try ANET-LIB     -> 1,162,122 B  (64.1s)
+   chosen ANET-PROC-lorenz-rk4-v1 (procedural): Seed 118 B  ratio 0.00010x  (+engine 30 B -> total 0.0001x)  read 0.1s  sha256 PASS
+
+== pg12.txt: 176,754 bytes   gzip 62,949  xz 55,736
+      try ANET-EN      ->    60,326 B  (11.8s)
+      try ANET-CODE    ->   116,066 B  (10.6s)
+      try ANET-LIB     ->    24,801 B  (11.1s)
+   chosen ANET-LIB (blocks): Seed 24,801 B  ratio 0.14031x  (+engine 256,680 B -> total 1.5925x)  read 12.1s  sha256 PASS
+
+== pg12_revised.txt: 176,941 bytes   gzip 63,000  xz 55,748
+      try ANET-EN      ->    60,848 B  (11.5s)
+      try ANET-CODE    ->   116,280 B  (10.7s)
+      try ANET-LIB     ->    31,805 B  (11.3s)
+   chosen ANET-LIB (blocks): Seed 31,805 B  ratio 0.17975x  (+engine 256,680 B -> total 1.6304x)  read 12.2s  sha256 PASS
+
+== pg84_frankenstein.txt: 200,000 bytes   gzip 76,855  xz 68,228
+      try ANET-EN      ->    67,883 B  (12.7s)
+      try ANET-CODE    ->   105,189 B  (11.9s)
+      try ANET-LIB     ->   117,710 B  (12.7s)
+   chosen ANET-EN (blocks): Seed 67,883 B  ratio 0.33942x  (+engine 55,720 B -> total 0.6180x)  read 12.7s  sha256 PASS
+
+== algorithmic_storage.py: 20,439 bytes   gzip 6,544  xz 6,408
+      try ANET-EN      ->    16,163 B  (1.8s)
+      try ANET-CODE    ->     9,475 B  (1.8s)
+      try ANET-LIB     ->    20,130 B  (1.7s)
+   chosen ANET-CODE (blocks): Seed 9,475 B  ratio 0.46357x  (+engine 55,720 B -> total 3.1897x)  read 1.4s  sha256 PASS
+
+== image.png: 88,791 bytes   gzip 83,598  xz 82,608
+      try ANET-EN      ->    89,485 B  (6.5s)
+      try ANET-CODE    ->    89,485 B  (5.5s)
+      try ANET-LIB     ->    89,485 B  (6.1s)
+   chosen VERBATIM (raw): Seed 88,791 B  ratio 1.00000x  (+engine 0 B -> total 1.0000x)  read 0.0s  sha256 PASS
+
+disk multi.adisk: 793,135 bytes; saved multiengine_results.json

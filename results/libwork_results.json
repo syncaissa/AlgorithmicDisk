@@ -1,0 +1,106 @@
+{
+ "device": "cpu",
+ "hidden": 384,
+ "engine_bytes": 256680,
+ "xz_ratio": 0.3153,
+ "library_bytes": 176754,
+ "prior_minutes": 40.1,
+ "points": [
+  {
+   "minutes": 40.5,
+   "epoch": 0,
+   "train_bits_per_byte": NaN,
+   "seed_bytes": 24801,
+   "ratio": 0.14031,
+   "exact": true
+  },
+  {
+   "minutes": 55.8,
+   "epoch": 110,
+   "train_bits_per_byte": 0.9174,
+   "seed_bytes": 24552,
+   "ratio": 0.1389,
+   "exact": true
+  },
+  {
+   "minutes": 70.9,
+   "epoch": 151,
+   "train_bits_per_byte": 0.8669,
+   "seed_bytes": 23638,
+   "ratio": 0.13373,
+   "exact": true
+  },
+  {
+   "minutes": 85.7,
+   "epoch": 181,
+   "train_bits_per_byte": 0.8164,
+   "seed_bytes": 23185,
+   "ratio": 0.13117,
+   "exact": true
+  },
+  {
+   "minutes": 100.5,
+   "epoch": 334,
+   "train_bits_per_byte": 0.7453,
+   "seed_bytes": 21755,
+   "ratio": 0.12308,
+   "exact": true
+  },
+  {
+   "minutes": 115.6,
+   "epoch": 488,
+   "train_bits_per_byte": 0.6537,
+   "seed_bytes": 19181,
+   "ratio": 0.10852,
+   "exact": true
+  },
+  {
+   "minutes": 130.7,
+   "epoch": 580,
+   "train_bits_per_byte": 0.6245,
+   "seed_bytes": 19701,
+   "ratio": 0.11146,
+   "exact": true
+  },
+  {
+   "minutes": 145.6,
+   "epoch": 660,
+   "train_bits_per_byte": 0.5773,
+   "seed_bytes": 17611,
+   "ratio": 0.09964,
+   "exact": true
+  },
+  {
+   "minutes": 160.6,
+   "epoch": 802,
+   "train_bits_per_byte": 0.5345,
+   "seed_bytes": 16622,
+   "ratio": 0.09404,
+   "exact": true
+  },
+  {
+   "minutes": 175.5,
+   "epoch": 959,
+   "train_bits_per_byte": 0.5101,
+   "seed_bytes": 17356,
+   "ratio": 0.09819,
+   "exact": true
+  },
+  {
+   "minutes": 190.5,
+   "epoch": 1117,
+   "train_bits_per_byte": 0.5504,
+   "seed_bytes": 17586,
+   "ratio": 0.09949,
+   "exact": true
+  },
+  {
+   "minutes": 190.9,
+   "epoch": 1117,
+   "train_bits_per_byte": 0.5504,
+   "seed_bytes": 17586,
+   "ratio": 0.09949,
+   "exact": true
+  }
+ ]
+}

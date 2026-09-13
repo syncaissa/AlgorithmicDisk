@@ -1,0 +1,57 @@
+  [  40.5 min | ep    0] train nan b/B -> Seed 24,801 B  ratio 0.14031x  exact True
+    ep   25 0.9895 bits/byte   2.8 min
+    ep   50 0.9480 bits/byte   5.2 min
+    ep   75 0.9311 bits/byte   7.8 min
+    ep  100 0.9073 bits/byte  10.6 min
+  [  55.8 min | ep  110] train 0.9174 b/B -> Seed 24,552 B  ratio 0.13890x  exact True
+    ep  125 0.8827 bits/byte  21.0 min
+    ep  150 0.8517 bits/byte  29.9 min
+  [  70.9 min | ep  151] train 0.8669 b/B -> Seed 23,638 B  ratio 0.13373x  exact True
+    ep  175 0.8724 bits/byte  42.1 min
+  [  85.7 min | ep  181] train 0.8164 b/B -> Seed 23,185 B  ratio 0.13117x  exact True
+    ep  200 0.8098 bits/byte  47.8 min
+    ep  225 0.8003 bits/byte  50.1 min
+    ep  250 0.8098 bits/byte  52.4 min
+    ep  275 0.8202 bits/byte  54.6 min
+    ep  300 0.7705 bits/byte  56.9 min
+    ep  325 0.7424 bits/byte  59.2 min
+  [ 100.5 min | ep  334] train 0.7453 b/B -> Seed 21,755 B  ratio 0.12308x  exact True
+    ep  350 0.7502 bits/byte  61.9 min
+    ep  375 0.7300 bits/byte  64.2 min
+    ep  400 0.7290 bits/byte  66.5 min
+    ep  425 0.6797 bits/byte  68.8 min
+    ep  450 0.6757 bits/byte  71.1 min
+    ep  475 0.7113 bits/byte  73.8 min
+  [ 115.6 min | ep  488] train 0.6537 b/B -> Seed 19,181 B  ratio 0.10852x  exact True
+    ep  500 0.6634 bits/byte  80.6 min
+    ep  525 0.6505 bits/byte  83.3 min
+    ep  550 0.6405 bits/byte  85.7 min
+    ep  575 0.6401 bits/byte  89.3 min
+  [ 130.7 min | ep  580] train 0.6245 b/B -> Seed 19,701 B  ratio 0.11146x  exact True
+    ep  600 0.6555 bits/byte  92.9 min
+    ep  625 0.6122 bits/byte  99.7 min
+    ep  650 0.6668 bits/byte 103.9 min
+  [ 145.6 min | ep  660] train 0.5773 b/B -> Seed 17,611 B  ratio 0.09964x  exact True
+    ep  675 0.6521 bits/byte 107.0 min
+    ep  700 0.5809 bits/byte 109.6 min
+    ep  725 0.6002 bits/byte 112.0 min
+    ep  750 0.5831 bits/byte 114.9 min
+    ep  775 0.5501 bits/byte 117.4 min
+    ep  800 0.5471 bits/byte 119.9 min
+  [ 160.6 min | ep  802] train 0.5345 b/B -> Seed 16,622 B  ratio 0.09404x  exact True
+    ep  825 0.7002 bits/byte 122.6 min
+    ep  850 0.5316 bits/byte 125.0 min
+    ep  875 0.6579 bits/byte 127.3 min
+    ep  900 0.6095 bits/byte 129.6 min
+    ep  925 0.5159 bits/byte 131.9 min
+    ep  950 0.4863 bits/byte 134.2 min
+  [ 175.5 min | ep  959] train 0.5101 b/B -> Seed 17,356 B  ratio 0.09819x  exact True
+    ep  975 0.6088 bits/byte 136.9 min
+    ep 1000 0.5373 bits/byte 139.2 min
+    ep 1025 0.5851 bits/byte 141.5 min
+    ep 1050 0.4550 bits/byte 143.8 min
+    ep 1075 0.4449 bits/byte 146.1 min
+    ep 1100 0.5012 bits/byte 148.5 min
+  [ 190.5 min | ep 1117] train 0.5504 b/B -> Seed 17,586 B  ratio 0.09949x  exact True
+  [ 190.9 min | ep 1117] train 0.5504 b/B -> Seed 17,586 B  ratio 0.09949x  exact True
+saved libwork_results.json

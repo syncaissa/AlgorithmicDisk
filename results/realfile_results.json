@@ -1,0 +1,210 @@
+{
+ "device": "cpu",
+ "engine": {
+  "params": 55696,
+  "bytes": 55720,
+  "hidden": 128,
+  "emb": 16,
+  "block_len": 256,
+  "train_bytes": 2000000,
+  "train_books": [
+   "alice.txt",
+   "books/pg1342.txt",
+   "books/pg84.txt",
+   "books/pg2701.txt",
+   "books/pg98.txt"
+  ],
+  "hist": [
+   {
+    "epoch": 1,
+    "bits_per_byte": 4.663,
+    "sec": 26
+   },
+   {
+    "epoch": 2,
+    "bits_per_byte": 3.56,
+    "sec": 65
+   },
+   {
+    "epoch": 3,
+    "bits_per_byte": 3.239,
+    "sec": 89
+   },
+   {
+    "epoch": 4,
+    "bits_per_byte": 3.059,
+    "sec": 112
+   },
+   {
+    "epoch": 5,
+    "bits_per_byte": 2.926,
+    "sec": 135
+   },
+   {
+    "epoch": 6,
+    "bits_per_byte": 2.829,
+    "sec": 160
+   },
+   {
+    "epoch": 7,
+    "bits_per_byte": 2.753,
+    "sec": 183
+   },
+   {
+    "epoch": 8,
+    "bits_per_byte": 2.692,
+    "sec": 206
+   },
+   {
+    "epoch": 9,
+    "bits_per_byte": 2.643,
+    "sec": 229
+   },
+   {
+    "epoch": 10,
+    "bits_per_byte": 2.6,
+    "sec": 254
+   },
+   {
+    "epoch": 11,
+    "bits_per_byte": 2.563,
+    "sec": 277
+   },
+   {
+    "epoch": 12,
+    "bits_per_byte": 2.529,
+    "sec": 301
+   }
+  ]
+ },
+ "files": [
+  {
+   "file": "pg12.txt",
+   "bytes": 196534,
+   "sha256": "e40a38f5da841f9fb6acc557355c447b7c2ccb56a208caf5fcf2b05081f14d42",
+   "baselines": {
+    "gzip9": 69779,
+    "bz2": 55439,
+    "xz": 61752
+   },
+   "modes": {
+    "stream": {
+     "seed_bytes": 65093,
+     "ideal_bytes": 64996,
+     "ratio": 0.3312,
+     "bits_per_byte": 2.65,
+     "write_s": 14.1,
+     "read_s": 14.5,
+     "exact": true,
+     "seed_plus_engine": 120813
+    },
+    "blocks": {
+     "seed_bytes": 69183,
+     "ideal_bytes": 64996,
+     "ratio": 0.352,
+     "bits_per_byte": 2.816,
+     "write_s": 12.2,
+     "read_s": 13.4,
+     "exact": true,
+     "seed_plus_engine": 124903
+    }
+   }
+  },
+  {
+   "file": "ideaBrainStormFile.txt",
+   "bytes": 42425,
+   "sha256": "bbe0ac2c78d90c5861e3bed3f04d7abec38666b464ec772bf0ab8e9dd2f9a198",
+   "baselines": {
+    "gzip9": 16910,
+    "bz2": 15436,
+    "xz": 15860
+   },
+   "modes": {
+    "stream": {
+     "seed_bytes": 27312,
+     "ideal_bytes": 27286,
+     "ratio": 0.6438,
+     "bits_per_byte": 5.15,
+     "write_s": 3.0,
+     "read_s": 3.2,
+     "exact": true,
+     "seed_plus_engine": 83032
+    },
+    "blocks": {
+     "seed_bytes": 27637,
+     "ideal_bytes": 27286,
+     "ratio": 0.6514,
+     "bits_per_byte": 5.211,
+     "write_s": 2.5,
+     "read_s": 2.6,
+     "exact": true,
+     "seed_plus_engine": 83357
+    }
+   }
+  },
+  {
+   "file": "algorithmic_storage.py",
+   "bytes": 20439,
+   "sha256": "1deb606b629b31c353bd08976abc9bc25b18356e216de2418e45d03259e39df1",
+   "baselines": {
+    "gzip9": 6544,
+    "bz2": 6497,
+    "xz": 6408
+   },
+   "modes": {
+    "stream": {
+     "seed_bytes": 15901,
+     "ideal_bytes": 15887,
+     "ratio": 0.778,
+     "bits_per_byte": 6.224,
+     "write_s": 1.5,
+     "read_s": 1.5,
+     "exact": true,
+     "seed_plus_engine": 71621
+    },
+    "blocks": {
+     "seed_bytes": 16163,
+     "ideal_bytes": 15887,
+     "ratio": 0.7908,
+     "bits_per_byte": 6.326,
+     "write_s": 1.3,
+     "read_s": 1.3,
+     "exact": true,
+     "seed_plus_engine": 71883
+    }
+   }
+  },
+  {
+   "file": "image.png",
+   "bytes": 88791,
+   "sha256": "66299af7e75f78389d812a188c4b3e3cd1952cad49d19a18c5d075b007bfa15e",
+   "baselines": {
+    "gzip9": 83598,
+    "bz2": 83598,
+    "xz": 82608
+   },
+   "modes": {
+    "stream": {
+     "seed_bytes": 153831,
+     "ideal_bytes": 153791,
+     "ratio": 1.7325,
+     "bits_per_byte": 13.86,
+     "write_s": 6.6,
+     "read_s": 7.1,
+     "exact": true,
+     "seed_plus_engine": 209551
+    },
+    "blocks": {
+     "seed_bytes": 89485,
+     "ideal_bytes": 153791,
+     "ratio": 1.0078,
+     "bits_per_byte": 8.063,
+     "write_s": 5.7,
+     "read_s": 0.2,
+     "exact": true,
+     "seed_plus_engine": 145205
+    }
+   }
+  }
+ ]
+}

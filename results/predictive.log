@@ -1,0 +1,82 @@
+[device cpu] 4805 chunks; baselines {'raw_bits': 232, 'gzip9_bits_per_chunk': 81.0, 'untrained_engine_bits': 1024}
+== hidden 64  M 250
+    ep   10 train 6.062 bits/char       4s
+    ep   20 train 4.534 bits/char       7s
+    ep   30 train 4.312 bits/char      10s
+    ep   40 train 4.167 bits/char      12s
+    ep   50 train 4.045 bits/char      16s
+    ep   60 train 3.923 bits/char      19s
+   -> train exact 100.0%  seed 140.2 bits (ideal 113.5)  holdout exact 100.0% seed 141.9  |  footprint/obj 970.9 bits (raw 232, gzip 81.0)  total 30341 B vs data 7250 B  break-even M* 2262
+== hidden 64  M 500
+    ep   10 train 4.588 bits/char       4s
+    ep   20 train 4.223 bits/char      10s
+    ep   30 train 3.972 bits/char      15s
+    ep   40 train 3.742 bits/char      19s
+    ep   50 train 3.551 bits/char      23s
+    ep   60 train 3.411 bits/char      27s
+   -> train exact 100.0%  seed 125.6 bits (ideal 98.8)  holdout exact 100.0% seed 127.9  |  footprint/obj 541.0 bits (raw 232, gzip 81.0)  total 33810 B vs data 14500 B  break-even M* 1952
+== hidden 64  M 1000
+    ep   10 train 4.241 bits/char      15s
+    ep   20 train 3.747 bits/char      28s
+    ep   30 train 3.430 bits/char      43s
+    ep   40 train 3.262 bits/char      52s
+    ep   50 train 3.149 bits/char      65s
+    ep   60 train 3.057 bits/char      82s
+   -> train exact 100.0%  seed 115.4 bits (ideal 88.7)  holdout exact 100.0% seed 118.9  |  footprint/obj 323.1 bits (raw 232, gzip 81.0)  total 40385 B vs data 29000 B  break-even M* 1781
+== hidden 64  M 2000
+    ep   10 train 3.793 bits/char      26s
+    ep   20 train 3.309 bits/char      57s
+    ep   30 train 3.114 bits/char      87s
+    ep   40 train 2.979 bits/char     103s
+    ep   50 train 2.875 bits/char     119s
+    ep   60 train 2.789 bits/char     136s
+   -> train exact 100.0%  seed 107.6 bits (ideal 80.9)  holdout exact 100.0% seed 111.7  |  footprint/obj 211.4 bits (raw 232, gzip 81.0)  total 52860 B vs data 58000 B  break-even M* 1669
+== hidden 64  M 4000
+    ep   10 train 3.325 bits/char      63s
+    ep   20 train 2.995 bits/char      95s
+    ep   30 train 2.812 bits/char     126s
+    ep   40 train 2.689 bits/char     174s
+    ep   50 train 2.601 bits/char     206s
+    ep   60 train 2.539 bits/char     220s
+   -> train exact 100.0%  seed 100.5 bits (ideal 73.7)  holdout exact 100.0% seed 103.4  |  footprint/obj 152.4 bits (raw 232, gzip 81.0)  total 76210 B vs data 116000 B  break-even M* 1579
+== hidden 128  M 250
+    ep   10 train 4.829 bits/char       1s
+    ep   20 train 4.228 bits/char       2s
+    ep   30 train 3.995 bits/char       3s
+    ep   40 train 3.803 bits/char       4s
+    ep   50 train 3.630 bits/char       5s
+    ep   60 train 3.485 bits/char       6s
+   -> train exact 100.0%  seed 127.7 bits (ideal 100.9)  holdout exact 100.0% seed 132.5  |  footprint/obj 1910.7 bits (raw 232, gzip 81.0)  total 59711 B vs data 7250 B  break-even M* 4274
+== hidden 128  M 500
+    ep   10 train 4.293 bits/char       2s
+    ep   20 train 3.896 bits/char       4s
+    ep   30 train 3.600 bits/char       6s
+    ep   40 train 3.397 bits/char       7s
+    ep   50 train 3.257 bits/char       9s
+    ep   60 train 3.147 bits/char      10s
+   -> train exact 100.0%  seed 118.0 bits (ideal 91.3)  holdout exact 100.0% seed 122.7  |  footprint/obj 1009.5 bits (raw 232, gzip 81.0)  total 63095 B vs data 14500 B  break-even M* 3910
+== hidden 128  M 1000
+    ep   10 train 3.940 bits/char       4s
+    ep   20 train 3.451 bits/char       7s
+    ep   30 train 3.233 bits/char      10s
+    ep   40 train 3.090 bits/char      13s
+    ep   50 train 2.970 bits/char      16s
+    ep   60 train 2.864 bits/char      19s
+   -> train exact 100.0%  seed 109.7 bits (ideal 83.1)  holdout exact 100.0% seed 116.0  |  footprint/obj 555.5 bits (raw 232, gzip 81.0)  total 69432 B vs data 29000 B  break-even M* 3645
+== hidden 128  M 2000
+    ep   10 train 3.515 bits/char       7s
+    ep   20 train 3.169 bits/char      13s
+    ep   30 train 2.967 bits/char      20s
+    ep   40 train 2.813 bits/char      26s
+    ep   50 train 2.688 bits/char      31s
+    ep   60 train 2.581 bits/char      37s
+   -> train exact 100.0%  seed 101.5 bits (ideal 74.9)  holdout exact 100.0% seed 108.8  |  footprint/obj 324.4 bits (raw 232, gzip 81.0)  total 81095 B vs data 58000 B  break-even M* 3416
+== hidden 128  M 4000
+    ep   10 train 3.172 bits/char      13s
+    ep   20 train 2.830 bits/char      25s
+    ep   30 train 2.617 bits/char      37s
+    ep   40 train 2.479 bits/char      49s
+    ep   50 train 2.381 bits/char      60s
+    ep   60 train 2.304 bits/char      72s
+   -> train exact 100.0%  seed 93.5 bits (ideal 66.8)  holdout exact 100.0% seed 99.9  |  footprint/obj 204.9 bits (raw 232, gzip 81.0)  total 102470 B vs data 116000 B  break-even M* 3218
+saved predictive_results.json

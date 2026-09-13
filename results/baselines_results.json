@@ -1,0 +1,38 @@
+{
+ "engine_bytes": 148024,
+ "train_bytes": 12000000,
+ "train_texts": 16,
+ "tests": [
+  {
+   "file": "pg12.txt",
+   "bytes": 176754,
+   "xz9e": 55784,
+   "bz2": 49248,
+   "zstd22": 56657,
+   "zstd22_dict": 52648,
+   "brotli11": 53855,
+   "ppmd_o8": 44480,
+   "ppmd_o16": 45497,
+   "xz9e_prior": 47236,
+   "ppmd_o16_prior": 39133,
+   "engine_float": 48391,
+   "engine_fixed": 50143
+  },
+  {
+   "file": "pg84.txt",
+   "bytes": 428903,
+   "xz9e": 137208,
+   "bz2": 120005,
+   "zstd22": 138781,
+   "zstd22_dict": 132934,
+   "brotli11": 133397,
+   "ppmd_o8": 109013,
+   "ppmd_o16": 113979,
+   "xz9e_prior": 119120,
+   "ppmd_o16_prior": 101989,
+   "engine_float": 112005,
+   "engine_fixed": 116208
+  }
+ ],
+ "zstd_dict_bytes": 148024
+}

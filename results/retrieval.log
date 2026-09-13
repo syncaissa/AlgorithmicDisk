@@ -1,0 +1,36 @@
+retrieval engine: 4,497 chunks from 331,237 B of library -> 104,252 B shipped (xz)
+
+== pg12.txt: 176,754 bytes   gzip 62,949  xz 55,736
+      try ANET-LIB     ->    24,801 B  (26.4s)
+      try ANET-RET-173118105113 ->        10 B  (1 runs, residual 0 B -> 0 raw, 0.3s)
+   chosen ANET-RET-173118105113: Seed 10 B  ratio 0.00006x  read 0.0s  sha256 PASS
+
+== rev1_60words.txt: 176,941 bytes   gzip 63,000  xz 55,748
+      try ANET-LIB     ->    31,805 B  (26.3s)
+      try delta vs pg12.txt               ->       390 B  (60 edits, 1.6s)
+      try ANET-RET-173118105113 ->     3,599 B  (57 runs, residual 7,787 B -> 3,189 neural, 2.0s)
+   chosen ANET-DELTA (base pg12.txt): Seed 390 B  ratio 0.00220x  read 0.1s  sha256 PASS
+
+== rev3_5pct.txt: 178,127 bytes   gzip 62,967  xz 55,856
+      try ANET-LIB     ->    48,792 B  (27.7s)
+      try delta vs pg12.txt               ->     4,742 B  (1454 edits, 3.4s)
+      try delta vs rev1_60words.txt       ->     4,082 B  (1400 edits, 3.0s)
+      try ANET-RET-173118105113 ->    36,779 B  (526 runs, residual 104,369 B -> 34,576 xz, 16.5s)
+   chosen ANET-DELTA (base rev1_60words.txt): Seed 4,082 B  ratio 0.02292x  read 0.2s  sha256 PASS
+
+== composite_manual.txt: 26,188 bytes   gzip 10,164  xz 9,764
+      try ANET-LIB     ->     9,649 B  (8.8s)
+      try delta vs pg12.txt               ->    12,366 B  (733 edits, 11.9s)
+      try delta vs rev1_60words.txt       ->    12,366 B  (732 edits, 12.4s)
+      try delta vs rev3_5pct.txt          ->    12,819 B  (753 edits, 17.6s)
+      try ANET-RET-173118105113 ->     3,502 B  (59 runs, residual 8,449 B -> 3,084 xz, 5.0s)
+   chosen ANET-RET-173118105113: Seed 3,502 B  ratio 0.13373x  read 0.0s  sha256 PASS
+
+== pg84_unseen.txt: 200,000 bytes   gzip 76,855  xz 68,228
+      try ANET-EN      ->    67,883 B  (28.4s)
+      try delta vs pg12.txt               ->    86,902 B  (3414 edits, 7.9s)
+      try delta vs rev1_60words.txt       ->    86,878 B  (3410 edits, 7.8s)
+      try delta vs rev3_5pct.txt          ->    87,075 B  (3450 edits, 7.9s)
+      try delta vs composite_manual.txt   ->    69,510 B  (191 edits, 46.8s)
+      try ANET-RET-173118105113 ->    67,894 B  (0 runs, residual 200,000 B -> 67,883 neural, 28.4s)
+   chosen ANET-EN: Seed 67,883 B  ratio 0.33942x  read 30.0s  sha256 PASS

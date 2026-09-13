@@ -1,0 +1,21 @@
+[device cpu] loaded engine engine_books.json
+  engine (shared generator): 55,696 params -> 55,720 bytes int8
+
+== pg12.txt: 196,534 bytes   gzip 69,779  bz2 55,439  xz 61,752
+   stream: Seed 65,093 B (2.65 bits/byte, ratio 0.331; ideal 64,996 B)  write 14.1s  read 14.5s  sha256 PASS  |  Seed+engine 120,813 B
+   blocks: Seed 69,183 B (2.82 bits/byte, ratio 0.352; ideal 64,996 B)  write 12.2s  read 13.4s  sha256 PASS  |  Seed+engine 124,903 B
+
+== ideaBrainStormFile.txt: 42,425 bytes   gzip 16,910  bz2 15,436  xz 15,860
+   stream: Seed 27,312 B (5.15 bits/byte, ratio 0.644; ideal 27,286 B)  write 3.0s  read 3.2s  sha256 PASS  |  Seed+engine 83,032 B
+   blocks: Seed 27,637 B (5.21 bits/byte, ratio 0.651; ideal 27,286 B)  write 2.5s  read 2.6s  sha256 PASS  |  Seed+engine 83,357 B
+
+== algorithmic_storage.py: 20,439 bytes   gzip 6,544  bz2 6,497  xz 6,408
+   stream: Seed 15,901 B (6.22 bits/byte, ratio 0.778; ideal 15,887 B)  write 1.5s  read 1.5s  sha256 PASS  |  Seed+engine 71,621 B
+   blocks: Seed 16,163 B (6.33 bits/byte, ratio 0.791; ideal 15,887 B)  write 1.3s  read 1.3s  sha256 PASS  |  Seed+engine 71,883 B
+
+== image.png: 88,791 bytes   gzip 83,598  bz2 83,598  xz 82,608
+   stream: Seed 153,831 B (13.86 bits/byte, ratio 1.733; ideal 153,791 B)  write 6.6s  read 7.1s  sha256 PASS  |  Seed+engine 209,551 B
+   blocks: Seed 89,485 B (8.06 bits/byte, ratio 1.008; ideal 153,791 B)  write 5.7s  read 0.2s  sha256 PASS  |  Seed+engine 145,205 B
+
+disk realfile.adisk: 696,379 bytes on disk (JSON incl. base64 overhead)
+saved realfile_results.json
