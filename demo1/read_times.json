@@ -1,0 +1,42 @@
+{
+ "animation_A.avi": [
+  0.1,
+  true
+ ],
+ "animation_B.avi": [
+  0.0,
+  true
+ ],
+ "brothers_karamazov.txt": [
+  73.8,
+  true
+ ],
+ "cinderella_storybook.pdf": [
+  0.0,
+  true
+ ],
+ "count_of_monte_cristo.txt": [
+  100.4,
+  true
+ ],
+ "don_quixote.txt": [
+  86.1,
+  true
+ ],
+ "nasa_mercury_transit_2016.mp4": [
+  0.0,
+  true
+ ],
+ "quixote_text_compressed.pdf": [
+  0.0,
+  true
+ ],
+ "quixote_text_uncompressed.pdf": [
+  0.0,
+  true
+ ],
+ "wealth_of_nations.txt": [
+  88.6,
+  true
+ ]
+}
