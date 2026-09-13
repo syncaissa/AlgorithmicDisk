@@ -1,0 +1,209 @@
+  write   10/1000       41s  last 3.7s
+  write   20/1000       89s  last 7.8s
+  write   30/1000      137s  last 4.1s
+  write   40/1000      179s  last 3.7s
+  write   50/1000      219s  last 3.8s
+  write   60/1000      263s  last 3.7s
+  write   70/1000      305s  last 3.9s
+  write   80/1000      345s  last 3.7s
+  write   90/1000      386s  last 3.7s
+  write  100/1000      426s  last 3.7s
+  write  110/1000      475s  last 3.7s
+  write  120/1000      516s  last 3.7s
+  write  130/1000      556s  last 3.8s
+  write  140/1000      598s  last 3.7s
+  write  150/1000      640s  last 4.4s
+  write  160/1000      681s  last 3.7s
+  write  170/1000      721s  last 3.7s
+  write  180/1000      762s  last 3.7s
+  write  190/1000      802s  last 3.7s
+  write  200/1000      842s  last 3.7s
+  write  210/1000      884s  last 3.7s
+  write  220/1000      924s  last 3.7s
+  write  230/1000      964s  last 3.7s
+  write  240/1000     1004s  last 3.7s
+  write  250/1000     1044s  last 3.7s
+  write  260/1000     1084s  last 3.7s
+  write  270/1000     1124s  last 3.7s
+  write  280/1000     1164s  last 3.7s
+  write  290/1000     1204s  last 3.7s
+  write  300/1000     1244s  last 3.7s
+  write  310/1000     1288s  last 3.7s
+  write  320/1000     1328s  last 3.9s
+  write  330/1000     1371s  last 3.7s
+  write  340/1000     1412s  last 3.8s
+  write  350/1000     1452s  last 3.7s
+  write  360/1000     1492s  last 3.7s
+  write  370/1000     1532s  last 3.8s
+  write  380/1000     1572s  last 3.7s
+  write  390/1000     1613s  last 3.7s
+  write  400/1000     1653s  last 3.8s
+  write  410/1000     1694s  last 3.7s
+  write  420/1000     1735s  last 3.7s
+  write  430/1000     1776s  last 4.0s
+  write  440/1000     1831s  last 7.7s
+  write  450/1000     1887s  last 4.5s
+  write  460/1000     1941s  last 3.8s
+  write  470/1000     1982s  last 3.7s
+  write  480/1000     2022s  last 3.8s
+  write  490/1000     2062s  last 3.8s
+  write  500/1000     2102s  last 3.7s
+  write  510/1000     2144s  last 3.7s
+  write  520/1000     2184s  last 3.7s
+  write  530/1000     2225s  last 3.8s
+  write  540/1000     2265s  last 3.7s
+  write  550/1000     2305s  last 4.1s
+  write  560/1000     2345s  last 3.7s
+  write  570/1000     2389s  last 4.0s
+  write  580/1000     2436s  last 3.9s
+  write  590/1000     2479s  last 3.7s
+  write  600/1000     2519s  last 3.7s
+  write  610/1000     2560s  last 3.8s
+  write  620/1000     2602s  last 3.8s
+  write  630/1000     2642s  last 3.7s
+  write  640/1000     2682s  last 3.7s
+  write  650/1000     2722s  last 3.8s
+  write  660/1000     2763s  last 3.7s
+  write  670/1000     2803s  last 3.7s
+  write  680/1000     2843s  last 3.8s
+  write  690/1000     2883s  last 3.7s
+  write  700/1000     2923s  last 3.7s
+  write  710/1000     2965s  last 3.7s
+  write  720/1000     3005s  last 3.7s
+  write  730/1000     3046s  last 3.7s
+  write  740/1000     3086s  last 3.7s
+  write  750/1000     3126s  last 3.7s
+  write  760/1000     3166s  last 3.7s
+  write  770/1000     3206s  last 3.7s
+  write  780/1000     3246s  last 3.7s
+  write  790/1000     3287s  last 3.7s
+  write  800/1000     3327s  last 3.8s
+  write  810/1000     3369s  last 3.8s
+  write  820/1000     3409s  last 3.8s
+  write  830/1000     3450s  last 3.9s
+  write  840/1000     3490s  last 3.7s
+  write  850/1000     3530s  last 3.7s
+  write  860/1000     3571s  last 3.7s
+  write  870/1000     3611s  last 3.7s
+  write  880/1000     3651s  last 3.7s
+  write  890/1000     3691s  last 3.7s
+  write  900/1000     3731s  last 3.7s
+  write  910/1000     3773s  last 3.7s
+  write  920/1000     3813s  last 3.7s
+  write  930/1000     3854s  last 3.7s
+  write  940/1000     3894s  last 3.7s
+  write  950/1000     3934s  last 3.8s
+  write  960/1000     3974s  last 3.7s
+  write  970/1000     4014s  last 3.7s
+  write  980/1000     4054s  last 3.7s
+  write  990/1000     4094s  last 3.7s
+  write 1000/1000     4135s  last 3.7s
+  read    10/1000 verified       41s  failed 0
+  read    20/1000 verified       81s  failed 0
+  read    30/1000 verified      120s  failed 0
+  read    40/1000 verified      161s  failed 0
+  read    50/1000 verified      201s  failed 0
+  read    60/1000 verified      240s  failed 0
+  read    70/1000 verified      279s  failed 0
+  read    80/1000 verified      318s  failed 0
+  read    90/1000 verified      356s  failed 0
+  read   100/1000 verified      395s  failed 0
+  read   110/1000 verified      436s  failed 0
+  read   120/1000 verified      475s  failed 0
+  read   130/1000 verified      514s  failed 0
+  read   140/1000 verified      552s  failed 0
+  read   150/1000 verified      591s  failed 0
+  read   160/1000 verified      630s  failed 0
+  read   170/1000 verified      668s  failed 0
+  read   180/1000 verified      707s  failed 0
+  read   190/1000 verified      746s  failed 0
+  read   200/1000 verified      785s  failed 0
+  read   210/1000 verified      826s  failed 0
+  read   220/1000 verified      865s  failed 0
+  read   230/1000 verified      904s  failed 0
+  read   240/1000 verified      943s  failed 0
+  read   250/1000 verified      983s  failed 0
+  read   260/1000 verified     1022s  failed 0
+  read   270/1000 verified     1061s  failed 0
+  read   280/1000 verified     1100s  failed 0
+  read   290/1000 verified     1139s  failed 0
+  read   300/1000 verified     1178s  failed 0
+  read   310/1000 verified     1218s  failed 0
+  read   320/1000 verified     1257s  failed 0
+  read   330/1000 verified     1296s  failed 0
+  read   340/1000 verified     1335s  failed 0
+  read   350/1000 verified     1374s  failed 0
+  read   360/1000 verified     1413s  failed 0
+  read   370/1000 verified     1453s  failed 0
+  read   380/1000 verified     1492s  failed 0
+  read   390/1000 verified     1531s  failed 0
+  read   400/1000 verified     1570s  failed 0
+  read   410/1000 verified     1611s  failed 0
+  read   420/1000 verified     1650s  failed 0
+  read   430/1000 verified     1689s  failed 0
+  read   440/1000 verified     1728s  failed 0
+  read   450/1000 verified     1767s  failed 0
+  read   460/1000 verified     1806s  failed 0
+  read   470/1000 verified     1845s  failed 0
+  read   480/1000 verified     1884s  failed 0
+  read   490/1000 verified     1923s  failed 0
+  read   500/1000 verified     1962s  failed 0
+  read   510/1000 verified     2003s  failed 0
+  read   520/1000 verified     2042s  failed 0
+  read   530/1000 verified     2081s  failed 0
+  read   540/1000 verified     2120s  failed 0
+  read   550/1000 verified     2159s  failed 0
+  read   560/1000 verified     2198s  failed 0
+  read   570/1000 verified     2237s  failed 0
+  read   580/1000 verified     2277s  failed 0
+  read   590/1000 verified     2316s  failed 0
+  read   600/1000 verified     2355s  failed 0
+  read   610/1000 verified     2395s  failed 0
+  read   620/1000 verified     2435s  failed 0
+  read   630/1000 verified     2474s  failed 0
+  read   640/1000 verified     2513s  failed 0
+  read   650/1000 verified     2552s  failed 0
+  read   660/1000 verified     2591s  failed 0
+  read   670/1000 verified     2630s  failed 0
+  read   680/1000 verified     2669s  failed 0
+  read   690/1000 verified     2708s  failed 0
+  read   700/1000 verified     2747s  failed 0
+  read   710/1000 verified     2789s  failed 0
+  read   720/1000 verified     2828s  failed 0
+  read   730/1000 verified     2867s  failed 0
+  read   740/1000 verified     2906s  failed 0
+  read   750/1000 verified     2945s  failed 0
+  read   760/1000 verified     2984s  failed 0
+  read   770/1000 verified     3023s  failed 0
+  read   780/1000 verified     3062s  failed 0
+  read   790/1000 verified     3101s  failed 0
+  read   800/1000 verified     3141s  failed 0
+  read   810/1000 verified     3181s  failed 0
+  read   820/1000 verified     3220s  failed 0
+  read   830/1000 verified     3260s  failed 0
+  read   840/1000 verified     3299s  failed 0
+  read   850/1000 verified     3338s  failed 0
+  read   860/1000 verified     3377s  failed 0
+  read   870/1000 verified     3416s  failed 0
+  read   880/1000 verified     3456s  failed 0
+  read   890/1000 verified     3495s  failed 0
+  read   900/1000 verified     3534s  failed 0
+  read   910/1000 verified     3574s  failed 0
+  read   920/1000 verified     3613s  failed 0
+  read   930/1000 verified     3652s  failed 0
+  read   940/1000 verified     3691s  failed 0
+  read   950/1000 verified     3731s  failed 0
+  read   960/1000 verified     3770s  failed 0
+  read   970/1000 verified     3809s  failed 0
+  read   980/1000 verified     3851s  failed 0
+  read   990/1000 verified     3892s  failed 0
+  read  1000/1000 verified     3932s  failed 0
+# Proof by 1000 files
+
+1000 telemetry files, 104.47 GB in total, stored as 123,907 bytes of Seeds (parameter records) plus one 1060-byte generator program;
+the catalogue file holding all 1000 Manifests is 315,075 bytes and the whole disk folder 317,228 bytes (3.04e-06 of the data).
+
+Regenerated from the catalogue alone and checked against the recorded sha-256: **1000/1000 bit-exact, 0 failed**.
+Write (generate + hash) 3,836 s total; read (regenerate + verify) 3,640 s total, 3.6 s per file on one core.
+Catalogue query "rho > 30 and sigma < 10" answered in 0.0002 s with 134 hits, without regenerating anything.
+

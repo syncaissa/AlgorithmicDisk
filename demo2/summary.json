@@ -1,0 +1,26 @@
+{
+ "files": 1000,
+ "apparent_bytes": 104471513533,
+ "seed_bytes_total": 123907,
+ "program_bytes": 1060,
+ "catalogue_file_bytes": 315075,
+ "disk_folder_bytes": 317228,
+ "ratio_seeds_plus_program": 1.1961825360223768e-06,
+ "ratio_disk_folder": 3.0365023849280735e-06,
+ "verified": 1000,
+ "failed": 0,
+ "all_exact": true,
+ "regen_total_s": 3640,
+ "regen_mean_s": 3.6,
+ "write_total_s": 3836,
+ "query": {
+  "query": "rho > 30 and sigma < 10",
+  "hits": 134,
+  "seconds": 0.0002,
+  "example": [
+   "telemetry_0007.csv",
+   "telemetry_0037.csv",
+   "telemetry_0040.csv"
+  ]
+ }
+}
