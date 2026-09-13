@@ -1,0 +1,25 @@
+{
+ "id": "nasa_mercury_transit_2016.mp4",
+ "gid": "VERBATIM",
+ "mode": "raw",
+ "n_bytes": 3413359,
+ "sha256": "2470e4a941c77fc0964ebd008f839b7c2ff7f0f33ad77ee0481336e00a1214a7",
+ "block_len": 512,
+ "seed_file": "seeds/nasa_mercury_transit_2016.mp4.seed",
+ "seed_bytes": 3413359,
+ "seed_preview": "000000206674797069736f6d00000200...",
+ "write_seconds": 5.1,
+ "trials": [
+  {
+   "engine": "VERBATIM",
+   "seed_bytes": 3413359,
+   "seconds": 0.0
+  },
+  {
+   "engine": "ANET-EN-256",
+   "skipped": "probe shows incompressible",
+   "probe_ratio": 1.004
+  }
+ ],
+ "xz": 3362724
+}

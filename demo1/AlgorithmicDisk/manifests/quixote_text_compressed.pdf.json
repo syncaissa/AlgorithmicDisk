@@ -1,0 +1,25 @@
+{
+ "id": "quixote_text_compressed.pdf",
+ "gid": "VERBATIM",
+ "mode": "raw",
+ "n_bytes": 1205694,
+ "sha256": "7c52c1427f03baae979cd44bf67063d71e8915c6c7ed83075c13afaaeed8cefc",
+ "block_len": 512,
+ "seed_file": "seeds/quixote_text_compressed.pdf.seed",
+ "seed_bytes": 1205694,
+ "seed_preview": "255044462d312e370a25c2b5c2b60a25...",
+ "write_seconds": 5.2,
+ "trials": [
+  {
+   "engine": "VERBATIM",
+   "seed_bytes": 1205694,
+   "seconds": 0.0
+  },
+  {
+   "engine": "ANET-EN-256",
+   "skipped": "probe shows incompressible",
+   "probe_ratio": 1.004
+  }
+ ],
+ "xz": 1109548
+}

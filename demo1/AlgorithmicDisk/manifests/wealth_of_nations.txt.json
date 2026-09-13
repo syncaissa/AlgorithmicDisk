@@ -1,0 +1,26 @@
+{
+ "id": "wealth_of_nations.txt",
+ "gid": "ANET-EN-256",
+ "mode": "blocks",
+ "n_bytes": 2468951,
+ "sha256": "e91d52dca43fd0fd69baf7776b00a5d8e74b69675b6b608ca8a0378aaf3ae58d",
+ "block_len": 512,
+ "seed_file": "seeds/wealth_of_nations.txt.seed",
+ "seed_bytes": 708399,
+ "seed_preview": "00c03cec369a3c434234d7470f936176...",
+ "write_seconds": 97.9,
+ "trials": [
+  {
+   "engine": "VERBATIM",
+   "seed_bytes": 2468951,
+   "seconds": 0.0
+  },
+  {
+   "engine": "ANET-EN-256",
+   "seed_bytes": 708399,
+   "seconds": 92.4,
+   "probe_ratio": 0.287
+  }
+ ],
+ "xz": 541920
+}

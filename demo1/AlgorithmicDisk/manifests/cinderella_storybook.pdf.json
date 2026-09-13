@@ -1,0 +1,25 @@
+{
+ "id": "cinderella_storybook.pdf",
+ "gid": "VERBATIM",
+ "mode": "raw",
+ "n_bytes": 1055953,
+ "sha256": "79ae92085483ef06d85171e1b4e294fa80a0b659b0a0c9ea60860fca8be325e7",
+ "block_len": 512,
+ "seed_file": "seeds/cinderella_storybook.pdf.seed",
+ "seed_bytes": 1055953,
+ "seed_preview": "255044462d312e370a25c2b5c2b60a25...",
+ "write_seconds": 5.4,
+ "trials": [
+  {
+   "engine": "VERBATIM",
+   "seed_bytes": 1055953,
+   "seconds": 0.0
+  },
+  {
+   "engine": "ANET-EN-256",
+   "skipped": "probe shows incompressible",
+   "probe_ratio": 1.004
+  }
+ ],
+ "xz": 496500
+}

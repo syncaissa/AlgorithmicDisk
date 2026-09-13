@@ -1,0 +1,90 @@
+{
+ "format": "AlgorithmicDisk/demo-1",
+ "engines": {
+  "ANET-EN-256": "engines/ANET-EN-256.json",
+  "ANET-PROC-anim-v1": "engines/ANET-PROC-anim-v1.py",
+  "VERBATIM": null
+ },
+ "objects": [
+  {
+   "id": "animation_A.avi",
+   "gid": "ANET-PROC-anim-v1",
+   "mode": "procedural",
+   "n_bytes": 3457672,
+   "seed_bytes": 110,
+   "sha256": "b1f4271319212ea7325889680ca1e851295b24c43ad2f9e34937620ffb24cdec"
+  },
+  {
+   "id": "animation_B.avi",
+   "gid": "ANET-PROC-anim-v1",
+   "mode": "procedural",
+   "n_bytes": 2700952,
+   "seed_bytes": 110,
+   "sha256": "b0cb5ab5ea6fdce061790d0dc63783779b0e6a9a96be8db144a3e973a54f6a16"
+  },
+  {
+   "id": "brothers_karamazov.txt",
+   "gid": "ANET-EN-256",
+   "mode": "blocks",
+   "n_bytes": 2039159,
+   "seed_bytes": 559018,
+   "sha256": "a8bda7296fbdcab50c97e3ccd6dde2c10c3bf9d5725fdfeb2b4dc78b62823ce5"
+  },
+  {
+   "id": "cinderella_storybook.pdf",
+   "gid": "VERBATIM",
+   "mode": "raw",
+   "n_bytes": 1055953,
+   "seed_bytes": 1055953,
+   "sha256": "79ae92085483ef06d85171e1b4e294fa80a0b659b0a0c9ea60860fca8be325e7"
+  },
+  {
+   "id": "count_of_monte_cristo.txt",
+   "gid": "ANET-EN-256",
+   "mode": "blocks",
+   "n_bytes": 2787124,
+   "seed_bytes": 761721,
+   "sha256": "64f8d5cfa51fcecb904abf7312d395d512a71817e7359b91288beb50517c3836"
+  },
+  {
+   "id": "don_quixote.txt",
+   "gid": "ANET-EN-256",
+   "mode": "blocks",
+   "n_bytes": 2391678,
+   "seed_bytes": 701402,
+   "sha256": "2864143e9addf498c1c5fd585db4a1ff3e06651c344cddf0931342f1a0ce24d4"
+  },
+  {
+   "id": "nasa_mercury_transit_2016.mp4",
+   "gid": "VERBATIM",
+   "mode": "raw",
+   "n_bytes": 3413359,
+   "seed_bytes": 3413359,
+   "sha256": "2470e4a941c77fc0964ebd008f839b7c2ff7f0f33ad77ee0481336e00a1214a7"
+  },
+  {
+   "id": "quixote_text_compressed.pdf",
+   "gid": "VERBATIM",
+   "mode": "raw",
+   "n_bytes": 1205694,
+   "seed_bytes": 1205694,
+   "sha256": "7c52c1427f03baae979cd44bf67063d71e8915c6c7ed83075c13afaaeed8cefc"
+  },
+  {
+   "id": "quixote_text_uncompressed.pdf",
+   "gid": "VERBATIM",
+   "mode": "raw",
+   "n_bytes": 4012832,
+   "seed_bytes": 4012832,
+   "sha256": "4aeaa4e54f1e23bb309b566fbcdf1f586e01372dc84eefb8aa3f434368349ab0"
+  },
+  {
+   "id": "wealth_of_nations.txt",
+   "gid": "ANET-EN-256",
+   "mode": "blocks",
+   "n_bytes": 2468951,
+   "seed_bytes": 708399,
+   "sha256": "e91d52dca43fd0fd69baf7776b00a5d8e74b69675b6b608ca8a0378aaf3ae58d"
+  }
+ ]
+}

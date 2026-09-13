@@ -1,0 +1,31 @@
+{
+ "id": "animation_A.avi",
+ "gid": "ANET-PROC-anim-v1",
+ "mode": "procedural",
+ "n_bytes": 3457672,
+ "sha256": "b1f4271319212ea7325889680ca1e851295b24c43ad2f9e34937620ffb24cdec",
+ "block_len": 512,
+ "seed_file": "seeds/animation_A.avi.seed",
+ "seed_bytes": 110,
+ "seed_preview": "{\"beta\": 2.6666666666666665, \"frames\": 60, \"height\": 120, \"rho\": 28.0, \"seed\": 1",
+ "write_seconds": 5.2,
+ "trials": [
+  {
+   "engine": "VERBATIM",
+   "seed_bytes": 3457672,
+   "seconds": 0.0
+  },
+  {
+   "engine": "ANET-PROC-anim-v1",
+   "seed_bytes": 110,
+   "seconds": 0.2,
+   "exact": true
+  },
+  {
+   "engine": "ANET-EN-256",
+   "skipped": "probe shows incompressible",
+   "probe_ratio": 1.004
+  }
+ ],
+ "xz": 1541108
+}

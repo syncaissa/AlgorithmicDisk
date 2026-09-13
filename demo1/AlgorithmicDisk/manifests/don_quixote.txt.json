@@ -1,0 +1,26 @@
+{
+ "id": "don_quixote.txt",
+ "gid": "ANET-EN-256",
+ "mode": "blocks",
+ "n_bytes": 2391678,
+ "sha256": "2864143e9addf498c1c5fd585db4a1ff3e06651c344cddf0931342f1a0ce24d4",
+ "block_len": 512,
+ "seed_file": "seeds/don_quixote.txt.seed",
+ "seed_bytes": 701402,
+ "seed_preview": "00c93cec369a3c434234d7470f936176...",
+ "write_seconds": 96.9,
+ "trials": [
+  {
+   "engine": "VERBATIM",
+   "seed_bytes": 2391678,
+   "seconds": 0.0
+  },
+  {
+   "engine": "ANET-EN-256",
+   "seed_bytes": 701402,
+   "seconds": 92.1,
+   "probe_ratio": 0.323
+  }
+ ],
+ "xz": 685584
+}

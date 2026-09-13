@@ -1,0 +1,26 @@
+{
+ "id": "count_of_monte_cristo.txt",
+ "gid": "ANET-EN-256",
+ "mode": "blocks",
+ "n_bytes": 2787124,
+ "sha256": "64f8d5cfa51fcecb904abf7312d395d512a71817e7359b91288beb50517c3836",
+ "block_len": 512,
+ "seed_file": "seeds/count_of_monte_cristo.txt.seed",
+ "seed_bytes": 761721,
+ "seed_preview": "00c63cec369a3c434234d7470f936176...",
+ "write_seconds": 106.1,
+ "trials": [
+  {
+   "engine": "VERBATIM",
+   "seed_bytes": 2787124,
+   "seconds": 0.0
+  },
+  {
+   "engine": "ANET-EN-256",
+   "seed_bytes": 761721,
+   "seconds": 100.6,
+   "probe_ratio": 0.286
+  }
+ ],
+ "xz": 776472
+}

@@ -1,0 +1,26 @@
+{
+ "id": "brothers_karamazov.txt",
+ "gid": "ANET-EN-256",
+ "mode": "blocks",
+ "n_bytes": 2039159,
+ "sha256": "a8bda7296fbdcab50c97e3ccd6dde2c10c3bf9d5725fdfeb2b4dc78b62823ce5",
+ "block_len": 512,
+ "seed_file": "seeds/brothers_karamazov.txt.seed",
+ "seed_bytes": 559018,
+ "seed_preview": "00c63cec369a3c434234d7470f936176...",
+ "write_seconds": 79.2,
+ "trials": [
+  {
+   "engine": "VERBATIM",
+   "seed_bytes": 2039159,
+   "seconds": 0.0
+  },
+  {
+   "engine": "ANET-EN-256",
+   "seed_bytes": 559018,
+   "seconds": 74.4,
+   "probe_ratio": 0.28
+  }
+ ],
+ "xz": 582040
+}
